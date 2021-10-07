@@ -7,18 +7,19 @@ public class TestaReferencias {
 		g1.setNome("Roque Silva");
 		g1.setSalario(5000.0);
 		
-		Funcionario f = new Funcionario();
-		f.setSalario(2000.0);
+		//Não funciona mais pois transformamos a classe Funcionario
+		//em uma classe abstrata;
+//		Funcionario f = new Funcionario();
+//		f.setSalario(2000.0);
 		
 		EditorVideo ev = new EditorVideo();
-		f.setSalario(2500.0);
+		ev.setSalario(2500.0);
 		
 		Designer d = new Designer();
 		d.setSalario(2000.0);
 		
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registro(g1);
-		controle.registro(f);
 		controle.registro(ev);
 		controle.registro(d);
 				
