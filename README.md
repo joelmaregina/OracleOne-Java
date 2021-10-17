@@ -6,10 +6,11 @@ _Repositório criado para armazenar códigos desenvolvidos durante os cursos de 
 
 * ORACLE ONE: Java;
   - [x] Java JRE e JDK;
-  - [x] Introdução á Orientação á Objetos;
+  - [x] Introduction to Object Oriented Programming (_Introdução á Programação Orientada á Objetos_);
   - [x] Polymorphism Inheritance and Interfaces (_Polimorfismo (Heranças e interfaces)_);
-  - [ ] Java exceptions (_Exceções em Java_);
+  - [x] Java exceptions (_Exceções em Java_);
   - [ ] Java e java.lang: Class Object & String;
+  - [ ] Java e java.util: Colections, Wrappers e Lambda expressions;
   - [ ] Java e Java.io: Streams, Reader e Writers;
   - [ ] Java Colletions: Lists Sets e Mapas;
   - [ ] Modern Java: New Features in Java 8 (_Java moderno: Novos recursos do Java 8_);
