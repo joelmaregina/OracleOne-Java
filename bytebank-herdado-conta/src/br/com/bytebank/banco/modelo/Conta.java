@@ -89,5 +89,9 @@ package br.com.bytebank.banco.modelo;
 		   return Conta.total;
 	   }
 	   
-	   
+		@Override
+		public String toString() {
+			return ". Numero: " + this.getNumero() + ", Agência: "  + this.getAgencia();
+		}
+		 
 }
