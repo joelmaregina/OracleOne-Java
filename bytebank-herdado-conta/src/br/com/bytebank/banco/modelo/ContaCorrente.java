@@ -1,11 +1,11 @@
 package br.com.bytebank.banco.modelo;
 
 //new ContaCorrente();
-public class ContaCorrente extends Conta implements Tributavel {
+public class ContaCorrente extends Conta implements Tributavel{
 	
 	public ContaCorrente(int agencia, int numero) {
 		super(agencia, numero);
-		// Impede criar uma conta com uma agência e numero que possuem valores negativos
+		// Impede criar uma conta com uma agência e numero que possuem valores negativos:
         if(agencia < 1) {
             throw new IllegalArgumentException("Agencia inválida");
         }

@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test;
+package br.com.bytebank.banco.teste;
 
 public class TestArrayString {
 	

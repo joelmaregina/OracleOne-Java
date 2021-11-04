@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test;
+package br.com.bytebank.banco.teste;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -19,7 +19,7 @@ public class TesteGuardadorContas {
 		int tamanho = guardador.getQuantidadeDeElementos();
 		System.out.println(tamanho);
 		
-		Conta ref = guardador.getReferencia(1);
+		Conta ref = (Conta) guardador.getReferencia(1);
 		System.out.println(ref.getNumero());
 		
 	}
