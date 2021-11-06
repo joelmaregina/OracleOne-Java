@@ -13,5 +13,5 @@ _Repositório criado para armazenar códigos desenvolvidos durante os cursos de 
   - [x] Java e java.util: Colections, Wrappers e Lambda expressions;
   - [x] Java e Java.io: Streams, Reader e Writers;
   - [x] Java Colletions: Lists Sets e Mapas;
-  - [ ] Modern Java: New Features in Java 8 (_Java moderno: Novos recursos do Java 8_);
+  - [x] Modern Java: New Features in Java 8 (_Java moderno: Novos recursos do Java 8_);
 
